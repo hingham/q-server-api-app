@@ -1,6 +1,6 @@
 'use strict';
 
-const Q = require('./lib/server.js');
+const Q = require('./q-server/lib/server.js');
 Q.start();
 
 const db = new Q('database');
